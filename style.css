@@ -1,0 +1,31 @@
+#circles{
+  display: flex;
+  justify-content: center;
+}
+
+#slider{
+  margin-top: 40px;
+}
+
+#progress-Bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5vh;
+  background-color: blue;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.circle.active {
+  background-color: yellow;
+}
